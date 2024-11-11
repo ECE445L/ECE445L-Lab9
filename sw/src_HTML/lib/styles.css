@@ -1,0 +1,176 @@
+ /* Importing Open Sans Condensed Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+#Fixme{
+  background-color: #b4e5f5;
+  width: 200px;
+  align-items: left;
+  margin-left: 60px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#right_U{
+  background-color: #b4e5f5;
+  width: 200px;
+  align-items: left;
+  margin-left: 60px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#left_U{
+  background-color: #b4e5f5;
+  width: 200px;
+  align-items: left;
+  margin-left: 10px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#left_ERR{
+  background-color: #d6faec;
+  width: 200px;
+  align-items: left;
+  margin-left: 10px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#right_ERR{
+   background-color: #d6faec;
+  width: 200px;
+  align-items: left;
+  margin-left: 60px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#left_RPM{
+    background-color: #f3d1dc;
+      width: 200px;
+      align-items: left;
+      margin-left: 10px;
+      padding-left: 30px;
+      padding-top: 2px;
+      padding-bottom: 1px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    
+#right_RPM{
+    background-color: #f3d1dc;
+      width: 200px;
+      align-items: left;
+      margin-left: 60px;
+      padding-left: 30px;
+      padding-top: 2px;
+      padding-bottom: 1px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: left;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+/*  ---------------  */
+    #kp1_mirror{
+        background-color: #ffffff;
+        width: 100px;
+        align-items: left;
+        margin-left: 0px;
+        padding-left: 2px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Arial;
+        font-size: 4;
+        text-align: left;
+     }
+
+#kp2_mirror{
+    background-color: #ffffff;
+    width: 100px;
+    align-items: left;
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    font-size: 4;
+    text-align: left;
+     }
+
+
+#ki1_mirror{
+    background-color: #ffffff;
+    width: 100px;
+    align-items: left;
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    font-size: 4;
+    text-align: left;
+     }
+
+#ki2_mirror{
+    background-color: #ffffff;
+    width: 100px;
+    align-items: left;
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    font-size: 4;
+    text-align: left;
+     }
+
+#xstar_mirror{
+    background-color: #ffffff;
+    width: 100px;
+    align-items: left;
+    margin-left: 0px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    font-family: Arial;
+    font-size: 4;
+    text-align: left;
+     }
