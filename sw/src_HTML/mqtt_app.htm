@@ -1,0 +1,67 @@
+<!-- -------------------------------------------- -->
+<!-- --------- LAB 9 Web Application ----------- -->
+<!-- 
+    Mashed up by: Mark McDermott from various sources
+    Project:      EE445L Lab 9
+    Updated:      7/11/24
+-->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>MQTT Control</title>
+		<link rel = "stylesheet" href = "lib/styles.css">        
+	</head>
+<body>
+        
+<!-- Import Source Paho MQTT Client, our code is called at the bottom -->
+<script src="lib/mqttws31.js"></script>
+
+        
+<!-- Table for displaying current State -->
+<table border="0" width="470" height="220">
+	<tr>
+		<td style="text-align: center;">	
+			<h1>LEFT MOTOR</h1>
+			<div id = "left_U" ></div><br>
+			<!-- TODO TODO TODO -->
+		</td>
+        	<td style="text-align: center;">
+			<h1>RIGHT MOTOR</h1>
+			<div id = "Fixme" > U(T)=0 </div><br>
+			<!-- TODO TODO TODO -->
+		</td>
+	</tr>
+</table>
+       
+
+<!-- Table for setting new values and EC -->
+<table border="0" width="450" height="50">
+	<tr>
+		<td>
+			<!-- SET Kp Term (TODO 1/2) -->
+            		<p>
+                		<form name="kp1_msg" action="" onsubmit="set_kp1()">
+                    		<font size="4" face="Arial">Set Kp1:<b>&nbsp; </b></font>
+				<font size="4" face="Arial Black">&nbsp;<input type="number"  name="kp1_value" ><br></font>                 
+                		</form>
+            		</p>
+ 			<!-- SET Ki Terms -->
+			<!-- SET RPM  aka X-Star -->
+		<td>
+          		<!-- Extra column for EC readout, HINT not like previous column-->
+		</td>
+	</tr>
+</table>
+	
+<br> <br> 		
+
+<!-- Import code, and Start it up! (After page has loaded) -->
+<script src="motor_ctl.js"></script>
+<script>connect();</script>
+
+        
+</body>
+</html>

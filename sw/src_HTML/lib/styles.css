@@ -1,6 +1,28 @@
  /* Importing Open Sans Condensed Google font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+		
+		
+hr {
+  border: none;
+  height: 5px;
+  /* Set the hr color */
+  background-color: #07879e;  /* Modern Browsers  #2ca3b8 */
+}
+		
+
 #Fixme{
   background-color: #b4e5f5;
   width: 200px;
